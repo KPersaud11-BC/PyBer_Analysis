@@ -56,6 +56,9 @@ The graph shows that rural areas take fewer rides but pay a higher average fare.
 
 ## Summary
 Pyber seeks to determine if there is adequate access to ridesharing in different city types, and see if ridesharing options are affordable. Based on the results, these are three business recommendations to the CEO for addressing any disparities among the city types.
-1.
-2.
-3. 
+
+1. It seems rural areas are underserved in terms of the number of drivers, while overserved in urban areas. Pyber should develop a plan to either send more drivers from the urban areas to rural areas, or create a recruitment program that gets more drivers from rural cities to join Pyber.
+
+2. The summary dataframe shows that riders in rural areas pay a far higher average fare than riders from other city areas. The scatter plot also shows that riders in rural areas account for the fewest rides. One could infer that rural customers may be turned away due to the higher cost. Therefore Pyber should immediately initiate a study that looks at the root cause of the higher average price. Variables like distance travelled and what city type is travelled to should be analyzed. In addition to this, Pyber's marketing team should fund a survey of rural customers as to their reasons for taking and not taking Pyber. They should gauge customers' feelings regarding affordability and preference for using the service. If determined, incentive programs to use Pyber can be offered to rural area customers
+
+3. Finally, Pyber's finance unit should continue the analysis of the multiple line chart to determine fare revenue trends. They can then compare it to a similar chart of total drivers per week and total rides per week. Finally, they can make recommendations about how to better distribute the fleet based on those fluctuations. For example, since I noted the increase in suburban fare revenue in April, one can infer that more riders are using Pyber in that area. Pyber can direct drivers to be more active in suburban areas during that month, which would hopefully drive more revenue for them in that area for the month.

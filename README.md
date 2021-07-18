@@ -12,9 +12,10 @@ Using images from the summary DataFrame and multiple-line chart, describe the di
 
 ### Summary DataFrame
 After reading in 2 csv files and creating DataFrames of each, I merged the data into a single DataFrame using 
-```pyber_data_df = pd.merge(ride_data_df, city_data_df, how="left", on=["city", "city"])```. I then created Series using the ```.groupby()``` method to create 3 series and used those to calculate totals and averages.
+```pyber_data_df = pd.merge(ride_data_df, city_data_df, how="left", on=["city", "city"])```. I then created Series using the ```.groupby()``` method to create 3 series and used those to calculate average fare per ride and per driver.
 I then combined those series into the Pyber Summmary Dataframe, depicted below.
 
+![Summary_DataFrame](https://user-images.githubusercontent.com/84286467/126079186-e9fabfd9-c394-44c4-a1f9-14e87b8b3607.PNG)
 
 
 

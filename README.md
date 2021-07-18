@@ -24,6 +24,11 @@ Again using the ```.groupby()``` method on the ```pyber_data_df```, I created a 
 
 ![Pyber_fare_summary](https://user-images.githubusercontent.com/84286467/126079765-35844a83-0e1a-4ecc-9725-2445e2e29856.png)
 
+Here are some noteworthy points that can be taken from the graph:
+- There are increases in total fare revenue in urban and suburban cities for January, and decreases in rural areas. 
+- There is a decrease in total fare revenue across all city types in the last week of February.
+- Fare revenue for Suburban cities is relatively flat for the month of March.
+- In the month of April, there is a decrease in rural area fare revenue, and a significant increase in suburban fare revenue. There is a slight decrease in urban fare revenue.
 
 ## Summary
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types

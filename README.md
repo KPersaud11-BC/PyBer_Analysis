@@ -17,9 +17,12 @@ I then combined those series into the Pyber Summmary Dataframe, depicted below.
 
 ![Summary_DataFrame](https://user-images.githubusercontent.com/84286467/126079186-e9fabfd9-c394-44c4-a1f9-14e87b8b3607.PNG)
 
-
+Rural areas account for the lowest total rides, total drivers, and total fares. However, they boast the highest average fare per ride and per driver compared to urban and suburban areas. The inverse is true for urban areas. They account for the highest total rides, total drivers, and total fares, but the lowest average fare per ride and per driver.
 
 ### Multiple-Line Chart
+Again using the ```.groupby()``` method on the ```pyber_data_df```, I created a new DataFrame showing the sum of the fares for each date. Using the ```.pivot()``` function, I modified that Dataframe with "date" as the index and city type as the columns. The analysis viewed the timeframe between January 1, 2019 and April 29, 2019. The table was filtered using the ```loc``` method for that date range. Finally, the dataframe was resampled to show total weekly fares by city type. Below is the resulting plot.
+
+![Pyber_fare_summary](https://user-images.githubusercontent.com/84286467/126079765-35844a83-0e1a-4ecc-9725-2445e2e29856.png)
 
 
 ## Summary
